@@ -111,7 +111,7 @@ function App() {
     setRowsPerPage(+event.target.value);
     setPage(0);
   };
-  const url = "http://192.168.1.11:8080";
+  const url = "https://transaction-service-loco.herokuapp.com";
   function getData() {
     axios
       .get(`${url}/transactionService/transaction/bulk`, {})
