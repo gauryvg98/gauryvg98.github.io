@@ -161,7 +161,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          src={require("../public/IPL.png")}
+          src={require("./IPL.png")}
           style={{
             height: "100vh",
             position: "fixed",
